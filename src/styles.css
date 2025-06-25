@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Navbar */
+nav {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Tarjetas de animales */
+.animal-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.animal-card img {
+  border-radius: 8px;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.15);
+}
+
+.animal-info {
+  flex-grow: 1;
+}
+
+.animal-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+  color: #2c3e50;
+}
+
+.animal-info p {
+  margin: 4px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Mensajes de carga o error */
+.loading,
+.error {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  color: #888;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
