@@ -1,0 +1,23 @@
+.contenedor-general {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.contenedor-animal {
+    background-color: rgba(157, 157, 157, 0.5);
+    margin: 20px;
+    width: 320px;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.contenedor-animal img {
+    width: 200px;
+}
+
+.contenedor-texto { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+}

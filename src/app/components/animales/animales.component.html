@@ -1,20 +1,27 @@
 <h2>🐶 Animales en adopción</h2>
 
-<div *ngIf="loading">Cargando animales...</div>
+<div class="contenedor-general">
+  
+  <div class="contenedor-animal">
+        @for (animal of animales; track animal.id){
+          <div class="contenedor-texto">
+          <p>{{animal.nombre}} - {{animal.especie}}</p>
 
-<div *ngIf="!loading && animales.length === 0">
-  No hay animales para mostrar.
-</div>
+          @if (animal.adoptado === true){
+          <p>adoptado</p>
+          }
+          <p>en adopcion</p>
 
-<div *ngIf="animales.length > 0">
-  <div *ngFor="let animal of animales" style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
-    <h3>{{ animal.nombre }}</h3>
-    <img [src]="animal.imagen" alt="{{ animal.nombre }}" width="200" *ngIf="animal.imagen" />
-    <p><strong>Especie:</strong> {{ animal.especie }}</p>
-    <p><strong>Edad:</strong> {{ animal.edad }} años</p>
-    <p><strong>Descripción:</strong> {{ animal.descripcion }}</p>
+          {{animal.descripcion}}
+          </div>
+
+          @if ( animal.especie == 'Perro' ) {
+          <img src="imgs/foto2.jpg" alt="">
+          } @else {
+          <img src="imgs/foto1.jpg" alt="">
+          }
+
+        }
   </div>
-  <div *ngIf="error" style="color: red;">
-  {{ error }}
-</div>
-</div>
+
+</div> 
