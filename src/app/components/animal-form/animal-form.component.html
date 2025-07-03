@@ -17,7 +17,7 @@
     
     <textarea name="descripcion" [(ngModel)]="animal.descripcion" placeholder="Descripción" required></textarea>
     
-    <button type="submit">Agregar Animal</button>
+    <button type="submit" [disabled]="!formulario.valid">Agregar Animal</button>
     
   </form>
   </div>
