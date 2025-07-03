@@ -60,3 +60,42 @@ form button {
 .contenedor-adopcion h2 {
     font-size: 40px;
 }
+
+@media (max-width: 768px) {
+  .contenedor-general {
+    margin: 0 20px;
+  }
+
+  .contenedor-form {
+    padding: 20px;
+  }
+
+  form {
+    padding: 30px 20px;
+  }
+
+  form input, textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  form button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contenedor-adopcion h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .redes {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .redes i {
+    font-size: 40px;
+  }
+}
