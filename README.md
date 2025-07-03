@@ -3,7 +3,9 @@
 
 Aplicación web en Angular para gestionar y mostrar animales disponibles para adopción. Permite listar, agregar, actualizar y eliminar animales.
 
+
 ---
+<img width="1440" alt="Screenshot 2025-07-03 at 8 45 13 PM" src="https://github.com/user-attachments/assets/3b1c0eba-bbc1-4a90-9dff-976fb95a6279" />
 
 ## Tecnologías utilizadas
 
