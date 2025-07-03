@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 
 export class AnimalFormComponent {
     animal : Animal = {
+    id: 0,
     nombre: '',
     especie: '',
     edad: 0,
@@ -28,6 +29,7 @@ export class AnimalFormComponent {
       this.animalService.addAnimal(this.animal).subscribe(res => {
         console.log('Animal agregado!', res);
         this.animal = {
+        id: this.animal.id++,
         nombre: '',
         especie: '',
         edad: 0,
