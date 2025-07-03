@@ -60,3 +60,50 @@ h2 {
 .contenedor-desc {
     padding: 2vh;
 }
+
+@media (max-width: 1024px) {
+  .contenedor-gral {
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    margin: 0 20px;
+  }
+
+  .contenedor-titulo {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .contenedor-gral {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .contenedor-animal {
+    width: 90%;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .contenedor-animal img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .contenedor-texto {
+    padding: 10px;
+  }
+}
