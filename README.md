@@ -1,4 +1,5 @@
 # Adopta un Amigo
+* Agustina Fennema 46094614 agusfennema@gmail.com- Sede Tandil 2025 
 
 Aplicación web en Angular para gestionar y mostrar animales disponibles para adopción. Permite listar, agregar, actualizar y eliminar animales.
 
