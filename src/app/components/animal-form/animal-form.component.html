@@ -1,1 +1,25 @@
-<p>animal-form works!</p>
+<div class="contenedor-general">
+
+  <div class="contenedor-adopcion">
+        <h2>Dar en adopcion</h2>
+  </div>
+
+  <div class="contenedor-form">
+    <form (ngSubmit)="agregar()" #formulario="ngForm">
+
+    <input type="text" name="nombre" [(ngModel)]="animal.nombre" placeholder="Nombre" required>
+    
+    <input type="text" name="especie" [(ngModel)]="animal.especie" placeholder="Especie" required>
+    
+    <input type="number" name="edad" [(ngModel)]="animal.edad" placeholder="Edad" required>
+    
+    <input type="url" name="fotoUrl" [(ngModel)]="animal.fotoUrl" placeholder="URL de la foto" required>
+    
+    <textarea name="descripcion" [(ngModel)]="animal.descripcion" placeholder="Descripción" required></textarea>
+    
+    <button type="submit">Agregar Animal</button>
+    
+  </form>
+  </div>
+
+</div>
