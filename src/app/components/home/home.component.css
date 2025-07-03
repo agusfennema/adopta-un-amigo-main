@@ -20,13 +20,18 @@
 
 .contenedor-img img {
     width: 100%;
-    height: fit-content;
+    height: 300%;
 }
 
 .contenedor-texto-mision .contenedor-texto p {
-    background-color: #FFDDAC;
     margin-top: -5px;
     font-size: 30px;
+    margin-left: 20px;
+}
+
+.contenedor-texto {
+    background-color: #FFDDAC;
+
 }
 
 .contenedor-adopta .contenedor-img {
