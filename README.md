@@ -23,8 +23,6 @@ Adopta un Amigo es una aplicación que facilita la adopción responsable mostran
 - Listar todos los animales disponibles para adopción  
 - Ver detalles de un animal específico  
 - Agregar nuevos animales  
-- Actualizar información de animales existentes  
-- Eliminar animales del catálogo  
 
 ---
 
