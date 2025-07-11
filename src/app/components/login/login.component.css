@@ -1,25 +1,51 @@
 .contenedor-general {
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    gap: 20px;
-    background-color: grey;
+    background-color: #fff;
+    margin: 0 50px 0 50px;
 }
 
 .contenedor-form {
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    gap: 20px; 
-
+    background-color: #FFDDAC;
+    padding: 35px;
 }
 
-.contenedor-texto {
+form {
+    background-color: #FFF9F2;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    padding: 50px;
+    justify-content: center;
     align-items: center;
-    padding: 20px 3px 3px 3px;
+}
+
+form input, textarea, button {
+    margin: 10px 0 10px 0;
+    padding: 7px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD9B10;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+form input, textarea {
+    margin: 10px 0 10px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDDAC;
+}
+
+form button {
+    margin: 20px 0 10px 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD9B10;
+    height: 35px;
 }
