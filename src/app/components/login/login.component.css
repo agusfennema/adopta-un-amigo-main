@@ -1,0 +1,23 @@
+.contenedor-general {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contenedor-form {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 20px; 
+
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 3px 3px 3px;
+}
