@@ -4,6 +4,7 @@
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     gap: 20px;
+    background-color: grey;
 }
 
 .contenedor-form {
