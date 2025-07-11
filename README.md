@@ -1,7 +1,7 @@
 # Adopta un Amigo
 * Agustina Fennema 46094614 agusfennema@gmail.com- Sede Tandil 2025 
 
-Aplicación web en Angular para gestionar y mostrar animales disponibles para adopción. Permite listar, agregar, actualizar y eliminar animales.
+Aplicación web en Angular para gestionar y mostrar animales disponibles para adopción. Permite listar, agregar y eliminar animales.
 
 ---
 
@@ -23,8 +23,7 @@ Adopta un Amigo es una aplicación que facilita la adopción responsable mostran
 - Listar todos los animales disponibles para adopción  
 - Ver detalles de un animal específico  
 - Agregar nuevos animales  
-- Actualizar información de animales existentes  
-- Eliminar animales del catálogo  
+- Ingresar como admin para poder borrar publicaciones (login> nombre: agus / contraseña: agus)
 
 ---
 

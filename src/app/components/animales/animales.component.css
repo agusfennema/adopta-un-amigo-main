@@ -107,3 +107,11 @@ h2 {
     padding: 10px;
   }
 }
+
+.btn-eliminar {
+  height: 20px;
+  border: none;
+  background-color: #FFD08E;
+  padding: 2px;
+  cursor: pointer;
+}

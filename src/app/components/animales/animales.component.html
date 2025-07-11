@@ -20,6 +20,11 @@
           <div class="contenedor-desc">
             {{animal.descripcion}}
           </div>
+
+          @if (logueado) {
+                      <button class="btn-eliminar" (click)="eliminar(animal.id)" >eliminar publicacion</button>
+
+          }
           </div>
 
           <img src="{{animal.fotoUrl}}" alt="">
